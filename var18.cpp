@@ -22,7 +22,7 @@ int main() {
         std::cout << "Not allowed"; 
     }
     else if (score < 50) {
-        std::cout << "Accepted, but the result threshold in not met";
+        std::cout << "Accepted, but the result threshold is not met";
     }
     else {
         std::cout << "Conditional pass";
