@@ -4,7 +4,7 @@ double average(int sum, int count) {
  if (count <= 0) {
  return 0.0;
  }
- return static_cast<double>(sum / count);
+ return static_cast<double>(sum) / count;
 }
 
 int main() {
